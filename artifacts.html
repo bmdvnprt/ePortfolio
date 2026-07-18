@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artifacts &amp; Reflections | Brandon Davenport ePortfolio</title>
+    <meta
+      name="description"
+      content="Three artifacts with reflections from Brandon Davenport: the BARAD-DUR AI project-management platform, the White Sands PTA website, and a technical writing sample."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Brandon Davenport home page">
+          <span class="brand-name">Brandon Davenport<span class="brand-mark">.</span></span>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-expanded="false"
+            aria-controls="navMenu"
+            aria-label="Open menu"
+          >
+            <span></span>
+          </button>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Résumé</a></li>
+            <li><a href="artifacts.html" aria-current="page">Artifacts</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ===== Page intro ===== -->
+      <section class="section section--dark section--tight">
+        <div class="container">
+          <span class="kicker">Artifacts &amp; Reflections</span>
+          <h1>Selected work, honestly reflected on</h1>
+          <p class="lead" style="color: var(--on-navy-soft); max-width: 62ch">
+            Each artifact below represents a real problem I chose to solve. For
+            every one, I share what I built, the skills it demanded, and an honest
+            reflection on what it taught me, because growth is the point of a
+            portfolio, not just polish.
+          </p>
+        </div>
+      </section>
+
+      <!-- ===== Artifact cards ===== -->
+      <section class="section section--light">
+        <div class="container">
+          <div class="grid grid-3">
+            <a class="card" href="artifact-tracker.html">
+              <span class="card-tag">Software</span>
+              <h3>BARAD-DUR Tracker</h3>
+              <p>
+                A full-stack, AI-augmented project-management platform I designed
+                and built from the ground up, using FastAPI, real-time updates,
+                and a natural-language AI layer.
+              </p>
+              <span class="card-link">Read the reflection &rarr;</span>
+            </a>
+            <a class="card" href="artifact-pta.html">
+              <span class="card-tag">Web &amp; Communication</span>
+              <h3>White Sands PTA Website</h3>
+              <p>
+                An accessible, audience-focused website for a nonprofit
+                parent–teacher association, translating an organization's mission
+                into clear, welcoming design.
+              </p>
+              <span class="card-link">Read the reflection &rarr;</span>
+            </a>
+            <a class="card" href="artifact-writing.html">
+              <span class="card-tag">Technical Writing</span>
+              <h3>Business Writing Reflection</h3>
+              <p>
+                A reflective analysis from my ENC 2210 technical-writing course on
+                audience analysis, executive summaries, and writing ethics, and
+                how I apply them at work.
+              </p>
+              <span class="card-link">Read the reflection &rarr;</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Why these ===== -->
+      <section class="section section--white section--tight">
+        <div class="container">
+          <div class="prose">
+            <span class="kicker">Why These Three</span>
+            <p>
+              Together, these artifacts map to the three disciplines I work
+              across: <strong>building</strong> (the AI platform),
+              <strong>communicating</strong> (the nonprofit website), and
+              <strong>writing</strong> (the technical document). Each one asked me
+              to think about a different audience, from end users to community
+              families to technical readers, and to make something complex feel
+              simple.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-name">Brandon Davenport<span class="brand-mark">.</span></span>
+          <p class="footer-tagline">
+            Operations leadership, clear communication, and software skills for
+            building systems that solve real problems.
+          </p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Résumé</a></li>
+            <li><a href="artifacts.html">Artifacts</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bar">
+        <div class="container">
+          <p>&copy; <span id="year"></span> Brandon Davenport · Capstone Technical Writing ePortfolio</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

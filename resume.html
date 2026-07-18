@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Résumé | Brandon Davenport ePortfolio</title>
+    <meta
+      name="description"
+      content="Résumé of Brandon Davenport: U.S. Space Force operations experience, education (M.S. Organizational Communication, B.S. Information Technology, and more), and technical skills."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Brandon Davenport home page">
+          <span class="brand-name">Brandon Davenport<span class="brand-mark">.</span></span>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-expanded="false"
+            aria-controls="navMenu"
+            aria-label="Open menu"
+          >
+            <span></span>
+          </button>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html" aria-current="page">Résumé</a></li>
+            <li><a href="artifacts.html">Artifacts</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ===== Page intro ===== -->
+      <section class="section section--dark section--tight">
+        <div class="container">
+          <div class="media media-2" style="align-items: center">
+            <div>
+              <span class="kicker">Résumé</span>
+              <h1>Experience &amp; Education</h1>
+              <p class="lead" style="color: var(--on-navy-soft); max-width: 52ch">
+                A snapshot of my military leadership, academic credentials, and
+                technical skills. Prefer a copy for your files?
+              </p>
+            </div>
+            <div class="btn-actions">
+              <a class="btn btn-primary" href="assets/Brandon_Davenport_Resume.pdf" download>
+                Download the résumé (PDF)
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Summary ===== -->
+      <section class="section section--light section--tight">
+        <div class="container">
+          <div class="prose">
+            <span class="kicker">Summary</span>
+            <p>
+              U.S. Space Force operations officer transitioning into software
+              engineering, combining mission-critical leadership since 2017 with
+              full-stack development skills and a graduate background in
+              organizational communication and data analytics. I lead teams under
+              pressure, analyze complex system data, and build practical tools
+              that improve how teams work.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Experience ===== -->
+      <section class="section section--white">
+        <div class="container">
+          <span class="kicker">Professional Experience</span>
+          <h2>Where I've served</h2>
+          <div class="entry">
+            <div class="entry-head">
+              <div>
+                <p class="entry-role mb-0">Space Operations Officer</p>
+                <span class="entry-org">United States Space Force</span>
+              </div>
+              <span class="entry-meta">2017 – Present</span>
+            </div>
+            <ul>
+              <li>Direct real-time orbital operations and monitor mission-critical aerospace systems to ensure continuous mission readiness.</li>
+              <li>Lead cross-functional teams of military personnel in high-pressure, time-sensitive environments.</li>
+              <li>Analyze complex system data to troubleshoot hardware and software issues and drive rapid anomaly resolution.</li>
+              <li>Optimize operational procedures to improve efficiency and minimize system downtime.</li>
+              <li>Brief technical findings and recommendations clearly to audiences ranging from technicians to senior leaders.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Selected projects (link to artifacts) ===== -->
+      <section class="section section--light">
+        <div class="container">
+          <span class="kicker">Selected Projects</span>
+          <h2>Things I've built</h2>
+          <div class="grid grid-2" style="margin-top: var(--sp-lg)">
+            <article class="card">
+              <h3>BARAD-DUR Tracker</h3>
+              <p>
+                A full-stack, AI-augmented project-management platform built on
+                FastAPI/Python with real-time WebSocket updates, a custom AI tool
+                registry, and embeddings-based natural-language interaction.
+              </p>
+              <a class="card-link" href="artifact-tracker.html">Read the full reflection &rarr;</a>
+            </article>
+            <article class="card">
+              <h3>Office Automation Suite</h3>
+              <p>
+                Python and PowerShell scripts that automated repetitive
+                data-entry and system-management tasks, cutting administrative
+                overhead and reducing manual errors.
+              </p>
+              <span class="card-link" style="color: var(--ink-soft)">Python · PowerShell · OOP</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Education TABLE (required table element) ===== -->
+      <section class="section section--white">
+        <div class="container">
+          <span class="kicker">Education</span>
+          <h2>Academic credentials</h2>
+          <p class="text-muted" style="max-width: 60ch">
+            Four credentials across communication, analytics, information
+            technology, and applied engineering: a foundation built one tool at a
+            time.
+          </p>
+          <div class="table-wrap" style="margin-top: var(--sp-lg)">
+            <table class="data">
+              <caption>Degrees &amp; certificates, with grade point average</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Credential</th>
+                  <th scope="col">Institution</th>
+                  <th scope="col">GPA</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>M.S., Organizational Communication</td>
+                  <td>Murray State University</td>
+                  <td>4.0</td>
+                </tr>
+                <tr>
+                  <td>Graduate Certificate, Data Analytics</td>
+                  <td>Air Force Institute of Technology</td>
+                  <td>3.8</td>
+                </tr>
+                <tr>
+                  <td>B.S., Information Technology</td>
+                  <td>Liberty University</td>
+                  <td>3.95</td>
+                </tr>
+                <tr>
+                  <td>A.A.S., Mechanical &amp; Electrical Technology</td>
+                  <td>Community College of the Air Force</td>
+                  <td>4.0</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Skills ===== -->
+      <section class="section section--light">
+        <div class="container">
+          <span class="kicker">Skills</span>
+          <h2>What I bring to a team</h2>
+          <div class="grid grid-3" style="margin-top: var(--sp-lg)">
+            <div class="card">
+              <h3>Technical</h3>
+              <ul class="feature-list">
+                <li>Python, JavaScript, HTML &amp; CSS, SQL</li>
+                <li>FastAPI, REST APIs, WebSockets</li>
+                <li>PowerShell &amp; automation scripting</li>
+                <li>Git &amp; version control</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>AI &amp; Data</h3>
+              <ul class="feature-list">
+                <li>LLM / AI integration</li>
+                <li>Embeddings &amp; semantic retrieval</li>
+                <li>Data analytics &amp; interpretation</li>
+                <li>Systems troubleshooting</li>
+              </ul>
+            </div>
+            <div class="card">
+              <h3>Leadership &amp; Communication</h3>
+              <ul class="feature-list">
+                <li>Team leadership under pressure</li>
+                <li>Technical writing &amp; briefing</li>
+                <li>Process optimization</li>
+                <li>Documentation &amp; training</li>
+              </ul>
+            </div>
+          </div>
+          <p class="text-muted" style="margin-top: var(--sp-lg)">
+            <strong>Clearance:</strong> U.S. Citizen · Active Top-Secret / SCI security clearance.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-name">Brandon Davenport<span class="brand-mark">.</span></span>
+          <p class="footer-tagline">
+            Operations leadership, clear communication, and software skills for
+            building systems that solve real problems.
+          </p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Résumé</a></li>
+            <li><a href="artifacts.html">Artifacts</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bar">
+        <div class="container">
+          <p>&copy; <span id="year"></span> Brandon Davenport · Capstone Technical Writing ePortfolio</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

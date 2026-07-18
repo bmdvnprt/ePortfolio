@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BARAD-DUR Tracker | Artifact &amp; Reflection | Brandon Davenport</title>
+    <meta
+      name="description"
+      content="Reflection on BARAD-DUR Tracker, a full-stack AI-augmented project-management platform built by Brandon Davenport with FastAPI, WebSockets, and an LLM tool registry."
+    />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Brandon Davenport home page">
+          <span class="brand-name">Brandon Davenport<span class="brand-mark">.</span></span>
+        </a>
+        <nav class="main-nav" aria-label="Primary">
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-expanded="false"
+            aria-controls="navMenu"
+            aria-label="Open menu"
+          >
+            <span></span>
+          </button>
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Résumé</a></li>
+            <li><a href="artifacts.html" aria-current="page">Artifacts</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- ===== Intro ===== -->
+      <section class="section section--dark section--tight">
+        <div class="container">
+          <p class="kicker">Artifact 01 · Software</p>
+          <h1>BARAD-DUR Tracker</h1>
+          <p class="lead" style="color: var(--on-navy-soft); max-width: 60ch">
+            A full-stack, AI-augmented project-management platform I designed and
+            built from the ground up: my most ambitious technical project to date.
+          </p>
+          <dl class="artifact-meta">
+            <div>
+              <dt>My role</dt>
+              <dd>Sole designer &amp; developer</dd>
+            </div>
+            <div>
+              <dt>Stack</dt>
+              <dd>Python · FastAPI · WebSockets · JavaScript</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Full-stack architecture + AI integration</dd>
+            </div>
+            <div>
+              <dt>Type</dt>
+              <dd>Self-directed project</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <!-- ===== Context ===== -->
+      <section class="section section--light">
+        <div class="container">
+          <div class="prose">
+            <span class="kicker">The Challenge</span>
+            <h2>One place to run the work</h2>
+            <p>
+              In operations, the details that matter, including projects, meetings,
+              tasks, system outages, and the people responsible for each, tend to
+              scatter across spreadsheets, chats, and email. I wanted a single platform
+              that pulled them together, and I wanted to teach myself modern
+              full-stack development and applied AI by building something real
+              rather than following a tutorial.
+            </p>
+            <p>
+              The result is <strong>BARAD-DUR Tracker</strong>: an
+              AI-augmented project-management application with dedicated modules
+              for projects, meetings, tasks, outages, and contacts, backed by a
+              Python service layer and a live-updating interface.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== What I built ===== -->
+      <section class="section section--white">
+        <div class="container">
+          <span class="kicker">What I Built</span>
+          <h2>From empty repository to working platform</h2>
+          <div class="grid grid-2" style="margin-top: var(--sp-lg)">
+            <div class="card">
+              <h3>A full-stack foundation</h3>
+              <p>
+                A FastAPI/Python service layer exposes the application's data and
+                logic, with a real-time WebSocket system that pushes updates to the
+                interface the moment something changes, with no refresh required.
+              </p>
+            </div>
+            <div class="card">
+              <h3>An AI service layer</h3>
+              <p>
+                I built a custom <strong>tool registry</strong> and a semantic
+                tool-selection engine so the app can understand natural-language
+                requests, retrieve the right data through embeddings-based search,
+                and let an LLM carry out tasks against real application data.
+              </p>
+            </div>
+            <div class="card">
+              <h3>Five working modules</h3>
+              <p>
+                Projects, meetings, tasks, outages, and contacts, each designed so
+                the information a user needs is grouped together and easy to scan.
+              </p>
+            </div>
+            <div class="card">
+              <h3>An interface people can use</h3>
+              <p>
+                I designed the layouts myself, focusing on clear hierarchy and
+                purposeful structure so the tool feels calm and usable rather than
+                cluttered.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Skills ===== -->
+      <section class="section section--light">
+        <div class="container">
+          <span class="kicker">Skills Demonstrated</span>
+          <h2>What this project asked of me</h2>
+          <div class="grid grid-2" style="margin-top: var(--sp-lg)">
+            <ul class="feature-list">
+              <li>Full-stack architecture and API design (FastAPI/Python)</li>
+              <li>Real-time systems with WebSockets</li>
+              <li>Applied AI: tool registries, embeddings retrieval, LLM task execution</li>
+            </ul>
+            <ul class="feature-list">
+              <li>User-interface and information design</li>
+              <li>Self-directed learning and problem decomposition</li>
+              <li>Hosting, running, and debugging a live application</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Reflection ===== -->
+      <section class="section section--white">
+        <div class="container">
+          <div class="prose">
+            <span class="kicker">Reflection</span>
+            <h2>What I learned</h2>
+            <div class="reflection">
+              <h3>Building taught me what tutorials couldn't</h3>
+              <p>
+                The biggest lesson was how much lives between "it works on my
+                machine" and "it works." Standing up a server, wiring real-time
+                updates, and chasing bugs across the stack forced me to think in
+                systems: understanding how each layer depends on the others and
+                isolating a problem methodically instead of guessing. That
+                mindset is the same one I use resolving anomalies in operations,
+                and seeing it transfer gave me real confidence.
+              </p>
+            </div>
+            <div class="reflection">
+              <h3>AI is a design problem, not just a feature</h3>
+              <p>
+                Integrating an LLM responsibly meant deciding what the model should
+                and shouldn't touch, structuring a tool registry so its actions
+                were predictable, and using embeddings to give it the right context
+                instead of hoping it guessed correctly. I learned that the value
+                isn't the AI itself; it's the careful scaffolding around it that
+                makes it trustworthy and useful.
+              </p>
+            </div>
+            <div class="reflection">
+              <h3>Scope is a skill</h3>
+              <p>
+                Left unchecked, a personal project can grow forever. I had to make
+                honest calls about what to build now, what to defer, and when a
+                feature was "good enough" to move on. Practicing that judgment,
+                and documenting my decisions so I could pick the work back up
+                later, was as valuable as any line of code.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Relevance ===== -->
+      <section class="section section--dark section--tight">
+        <div class="container">
+          <div class="prose">
+            <span class="kicker">Why It Matters to My Audience</span>
+            <p style="color: var(--on-navy-soft)">
+              For an employer, this project is evidence that I can take an idea from
+              a blank repository to a working, AI-enabled application, learning
+              whatever I need along the way. It shows initiative, systems thinking,
+              and the discipline to finish. Those are the qualities I'd bring to an
+              engineering team on day one.
+            </p>
+          </div>
+          <nav class="pager" aria-label="Artifact navigation" style="border-top-color: var(--line-navy)">
+            <a class="prev" href="artifacts.html">All artifacts</a>
+            <a class="next" href="artifact-pta.html">Next: White Sands PTA Website</a>
+          </nav>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="brand-name">Brandon Davenport<span class="brand-mark">.</span></span>
+          <p class="footer-tagline">
+            Operations leadership, clear communication, and software skills for
+            building systems that solve real problems.
+          </p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="resume.html">Résumé</a></li>
+            <li><a href="artifacts.html">Artifacts</a></li>
+            <li><a href="goals.html">Goals</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-bar">
+        <div class="container">
+          <p>&copy; <span id="year"></span> Brandon Davenport · Capstone Technical Writing ePortfolio</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
