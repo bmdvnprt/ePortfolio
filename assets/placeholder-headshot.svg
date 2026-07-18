@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" role="img" aria-label="Placeholder for a professional headshot">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16283f"/>
+      <stop offset="1" stop-color="#0f1e33"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect x="20" y="20" width="760" height="960" rx="18" fill="none" stroke="#2a3d57" stroke-width="2" stroke-dasharray="10 10"/>
+  <g fill="#c8a24b">
+    <circle cx="400" cy="410" r="120"/>
+    <path d="M400 560c-140 0-250 90-250 210v10h500v-10c0-120-110-210-250-210z"/>
+  </g>
+  <text x="400" y="850" text-anchor="middle" font-family="Georgia, serif" font-size="40" fill="#f3f0e9">Your Headshot</text>
+  <text x="400" y="900" text-anchor="middle" font-family="system-ui, sans-serif" font-size="26" fill="#b9c4d2">Replace with a professional photo</text>
+</svg>
